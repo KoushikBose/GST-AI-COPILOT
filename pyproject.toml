@@ -1,0 +1,7 @@
+# Repository-root config for Vercel only.
+#
+# The real backend project metadata lives in `backend/pyproject.toml`. Vercel
+# reads the pyproject at its Root Directory, which for this project is the repo
+# root, so the entrypoint is declared here and points at the shim in `main.py`.
+[tool.vercel]
+entrypoint = "main:app"
