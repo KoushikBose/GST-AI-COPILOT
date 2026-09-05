@@ -19,7 +19,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY pyproject.toml ./
-RUN pip install --upgrade pip && pip install -e ".[dev]"
+# setuptools' packages.find (include = ["app*"]) needs the package directory
+# to exist on disk at install time, or the editable install registers no
+# package at all — a placeholder here lets it discover "app" before the real
+# source is copied in below, which then overwrites the placeholder.
+RUN mkdir -p app && touch app/__init__.py \
+    && pip install --upgrade pip && pip install -e ".[dev]"
 
 COPY . .
 
