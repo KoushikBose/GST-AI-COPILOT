@@ -107,3 +107,10 @@ include = ["app*"]
 [build-system]
 requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
+
+# --- Vercel deployment ---
+# Requires the Vercel project's Root Directory to be set to `backend/`.
+# `app/main.py` exposing `app` is already a Vercel-supported entrypoint, so
+# this block is mostly explicit documentation of what gets deployed.
+[tool.vercel]
+entrypoint = "app.main:app"
