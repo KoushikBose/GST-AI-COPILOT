@@ -1,0 +1,10 @@
+{"id": "q1", "query": "What is reverse charge mechanism under GST?", "intent": "GST_QUERY"}
+{"id": "q2", "query": "How does input tax credit work?", "intent": "ITC_ANALYSIS"}
+{"id": "q3", "query": "What are the conditions for claiming ITC under Section 16?", "intent": "ITC_ANALYSIS"}
+{"id": "q4", "query": "Calculate GST on 100000 at 18% for an intra-state sale", "intent": "GST_CALCULATION"}
+{"id": "q5", "query": "What is the difference between CGST, SGST and IGST?", "intent": "GST_QUERY"}
+{"id": "q6", "query": "What are the mandatory fields on a GST invoice?", "intent": "GST_QUERY"}
+{"id": "q7", "query": "What is the GST registration threshold for a service provider?", "intent": "GST_QUERY"}
+{"id": "q8", "query": "Explain blocked credits under Section 17(5)", "intent": "ITC_ANALYSIS"}
+{"id": "q9", "query": "What is a composition scheme under GST?", "intent": "GST_QUERY"}
+{"id": "q10", "query": "How is place of supply determined for services?", "intent": "GST_QUERY"}

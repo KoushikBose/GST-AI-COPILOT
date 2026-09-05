@@ -1,0 +1,8 @@
+{"id": "q1", "must_mention": ["reverse charge", "recipient", "liable to pay"]}
+{"id": "q2", "must_mention": ["input tax credit", "output tax", "eligible"]}
+{"id": "q3", "must_mention": ["Section 16", "possession of invoice", "goods or services received"]}
+{"id": "q5", "must_mention": ["CGST", "SGST", "IGST", "inter-state"]}
+{"id": "q6", "must_mention": ["GSTIN", "invoice number", "HSN"]}
+{"id": "q8", "must_mention": ["Section 17", "blocked credit", "motor vehicle"]}
+{"id": "q9", "must_mention": ["composition scheme", "turnover", "lower rate"]}
+{"id": "q10", "must_mention": ["place of supply", "location of recipient"]}
